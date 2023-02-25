@@ -13,7 +13,7 @@ describe("Automation using Cypress", () => {
       cy.get('[name="search"]').eq(0).type("Macbook");
       cy.get('[type="submit"]').eq(0).click();
     });
-    it("Verify Product after search ", () => {
+    it("Verify Product after search", () => {
       cy.contains("Macbook");
     });
    });
